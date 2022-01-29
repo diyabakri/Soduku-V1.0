@@ -24,7 +24,6 @@ Note:this program needs sudo in order to access the events folder for unix
 
 Upon Starting the exe the game will generate a new board and the termnal will show the game board 
 with instructuons 
-Note: numpad keys are also supported
 
 ```bash
 			 possible values: 2 4 7 8 
@@ -46,10 +45,11 @@ Note: numpad keys are also supported
 		Press the backspace key to remove number from box
 		 Press the s key to automaticly solve the puzzle
 ```
+Note: numpad keys are also supported
 
 ## GAME OVER
 
-Upon finishing a game by filing all the numbers the player can press y for a new game or n to end the game
+Upon finishing a game by filing all the numbers the player can press "y" for a new game or "n" to end the game
 
 ```bash
 			 possible values: 
