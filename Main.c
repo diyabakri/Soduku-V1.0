@@ -129,6 +129,7 @@ int main(){
             b = generateGame(30);
             printf("\t\t\t  Generating valid Board");
             printSodukuBoard(b, -1, -1);
+            usleep(25000);
             solve(b, 0, 0);
         }
 

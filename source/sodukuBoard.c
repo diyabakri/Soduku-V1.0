@@ -138,7 +138,6 @@ sodukuBoard sodukuBoardInit(){
 }
 
 void printSodukuBoard(sodukuBoard Board, int selected_i , int selected_j){
-    usleep(25000);
     system("clear");
 
     int box_i = selected_i/3;
@@ -184,7 +183,7 @@ void printSodukuBoard(sodukuBoard Board, int selected_i , int selected_j){
                         printf("| |");
                     }
                 }else{
-                    printf("| |");
+                    printf("|X|");
                 }
             }
             if ((j+1) % 3 == 0){
@@ -259,6 +258,7 @@ void showSeleution(sodukuBoard* B){
         for(int j = 0 ; j < 9 ; j++){
         
             B->board[i][j] = seleution.board[i][j];
+            usleep(25000);
             printSodukuBoard(*B,-1,-1);
         }
     
